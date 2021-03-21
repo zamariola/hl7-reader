@@ -1,4 +1,4 @@
-module github.com/mylanconnolly/hl7
+module github.com/zamariola/hl7
 
 go 1.15
 

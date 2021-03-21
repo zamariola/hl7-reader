@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/mylanconnolly/hl7"
+	"github.com/zamariola/hl7"
 )
 
 var filename = flag.String("file", "", "The file to parse")

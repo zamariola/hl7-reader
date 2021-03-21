@@ -1,6 +1,6 @@
 # HL7
 
-![Test](https://github.com/mylanconnolly/hl7/workflows/Test/badge.svg)
+![Test](https://github.com/zamariola/hl7/workflows/Test/badge.svg)
 
 This is a basic HL7 parser written in Go. There are no external dependencies,
 only the standard library is used (except for tests, where
@@ -25,7 +25,7 @@ particularly modern in Go.
 Installation is simple:
 
 ```bash
-$ go get github.com/mylanconnolly/hl7
+$ go get github.com/zamariola/hl7
 ```
 
 ## Usage
@@ -44,14 +44,4 @@ example file with HL7 data in it gathered from
 [Ringholm bv](http://www.ringholm.com/docs/04300_en.htm).
 
 Further usage information can be found
-[here](https://pkg.go.dev/github.com/mylanconnolly/hl7).
-
-## TODO
-
-I would like to add the following functionality, but it's not on the immediate
-schedule:
-
-- [ ] A way to handle unmarshalling using Go semantics (struct tags, etc.).
-- [ ] Some validation of the input data (this isn't likely; it means this
-      program will need to know a lot about HL7 and I might not have time to
-      implement it correctly).
+[here](https://pkg.go.dev/github.com/zamariola/hl7).
