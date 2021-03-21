@@ -1,4 +1,4 @@
-module github.com/zamariola/hl7
+module github.com/zamariola/hl7redear
 
 go 1.15
 

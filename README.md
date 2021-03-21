@@ -25,7 +25,7 @@ particularly modern in Go.
 Installation is simple:
 
 ```bash
-$ go get github.com/zamariola/hl7
+$ go get github.com/zamariola/hl7reader
 ```
 
 ## Usage
