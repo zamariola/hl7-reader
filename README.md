@@ -1,6 +1,6 @@
 # HL7
 
-![Test](https://github.com/zamariola/hl7/workflows/Test/badge.svg)
+![Test](https://github.com/zamariola/hl7reader/workflows/Test/badge.svg)
 
 This is a basic HL7 parser written in Go. There are no external dependencies,
 only the standard library is used (except for tests, where
