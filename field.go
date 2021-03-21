@@ -1,4 +1,4 @@
-package hl7
+package hl7reader
 
 // Field is a slice of components.
 type Field []Component

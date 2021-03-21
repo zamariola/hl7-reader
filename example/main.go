@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/zamariola/hl7"
+	"github.com/zamariola/hl7reader"
 )
 
 var filename = flag.String("file", "", "The file to parse")
@@ -33,9 +33,9 @@ func main() {
 	}
 	defer file.Close()
 
-	reader := hl7.NewReader(file)
+	reader := hl7reader.NewReader(file)
 
-	if err = reader.EachMessage(func(msg *hl7.Message) error {
+	if err = reader.EachMessage(func(msg *hl7reader.Message) error {
 		fmt.Println("Found a message!")
 		return nil
 	}); err != nil {

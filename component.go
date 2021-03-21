@@ -1,4 +1,4 @@
-package hl7
+package hl7reader
 
 // Component is used to represent a slice of sub-components.
 type Component []SubComponent

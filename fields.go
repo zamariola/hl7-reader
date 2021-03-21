@@ -1,4 +1,4 @@
-package hl7
+package hl7reader
 
 // Fields is a slice of fields
 type Fields []Field
